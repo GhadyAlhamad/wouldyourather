@@ -6,4 +6,5 @@ Implemented in 2022, March.
 ![Wouldyourather](https://raw.githubusercontent.com/GhadyAlhamad/wouldyourather/main/src/assets/screenshots/1.PNG)
 
 ## Setup
-| WARNING: be careful to baz the quux before initializing the retro encabulator! |
+| WARNING: be careful to baz the quux before initializing the retro encabulator! | 
+| --- |
