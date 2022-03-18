@@ -8,3 +8,5 @@ Implemented in 2022, March.
 ## Setup
 | WARNING: be careful to baz the quux before initializing the retro encabulator! | 
 | --- |
+
+> **WARNING**: Be careful, or else!
