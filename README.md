@@ -8,6 +8,4 @@ Implemented in 2022, March.
 ## Setup
 | WARNING: be careful to baz the quux before initializing the retro encabulator! | 
 | --- |
-
-> - Test 123
- > - Follow  [testing artifacts](http://2.bp.blogspot.com) (more Unit )
+<code>xx</code>
