@@ -1,0 +1,10 @@
+<div class="leaderboard-panel">
+  <app-leaderboardcard
+    *ngFor="let userScore of usersScores; let i = index"
+    [rank]="i + 1"
+    [user]="userScore.username"
+    [avatarURL]="getUserAvatarURL(userScore.avatarURL)"
+    [answeredQuestion]="userScore.answeredQuestion"
+    [createdQuestion]="userScore.createdQuestion"
+  ></app-leaderboardcard>
+</div>

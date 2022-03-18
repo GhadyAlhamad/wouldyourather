@@ -1,0 +1,352 @@
+2022-03-07T00:09:35.954Z - info:   [12808] *** FOLDER: c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather ***
+2022-03-07T00:09:35.954Z - info:   [12808] AzureReposVSCode/1.161.1 (VSCode 1.63.2; Windows_NT 10.0.19044; Node 14.16.0)
+2022-03-07T00:09:35.954Z - debug:  [12808] Looking for an External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-07T00:09:35.954Z - debug:  [12808] No External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-07T00:09:35.955Z - debug:  [12808] Looking for TFVC repository at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-07T00:09:35.956Z - debug:  [12808] TFVC Creating Tfvc object with localPath='undefined'
+2022-03-07T00:09:35.956Z - debug:  [12808] Using TFS proxy: 
+2022-03-07T00:09:35.956Z - debug:  [12808] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2022-03-07T00:09:35.957Z - debug:  [12808] TFVC Repository created with repositoryRootFolder='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-07T00:09:35.957Z - debug:  [12808] TFVC Repository.CheckVersion
+2022-03-07T00:09:35.958Z - debug:  [12808] TFVC: tf add -noprompt -?
+2022-03-07T00:09:35.965Z - debug:  [12808] TFVC: spawned new process (duration: 7ms)
+2022-03-07T00:09:35.973Z - debug:  [12808] TFVC: spawned new process (duration: 7ms)
+2022-03-07T00:09:36.623Z - debug:  [12808] TFVC: add exit code: 0 (duration: 665ms)
+2022-03-07T00:09:36.624Z - debug:  [12808] TFVC Minimum required version: 14.102.0
+2022-03-07T00:09:36.624Z - debug:  [12808] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2022-03-07T00:09:36.624Z - debug:  [12808] TFVC Repository.FindWorkspace with localPath='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-07T00:09:36.625Z - debug:  [12808] TFVC: tf workfold -noprompt c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-07T00:09:36.635Z - debug:  [12808] TFVC: spawned new process (duration: 9ms)
+2022-03-07T00:09:37.679Z - debug:  [12808] TFVC: workfold exit code: 100 (duration: 1054ms)
+2022-03-07T00:09:37.680Z - debug:  [12808] TFVC errors (via stderr): There is no working folder mapping for c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather.
+
+2022-03-07T00:09:37.680Z - error:  [12808] Execution of the TFVC command line failed unexpectedly.
+2022-03-07T00:27:41.859Z - debug:  [12808] Reinitializing due to onDidChangeConfiguration
+2022-03-07T00:27:41.863Z - debug:  [12808] Polling interval value (minutes): 5
+2022-03-07T00:27:41.863Z - debug:  [12808] Polling interval must be greater than 10 minutes.
+2022-03-07T00:27:41.871Z - info:   [12808] *** FOLDER: c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather ***
+2022-03-07T00:27:41.871Z - info:   [12808] AzureReposVSCode/1.161.1 (VSCode 1.63.2; Windows_NT 10.0.19044; Node 14.16.0)
+2022-03-07T00:27:41.872Z - debug:  [12808] Looking for an External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-07T00:27:41.872Z - debug:  [12808] No External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-07T00:27:41.889Z - debug:  [12808] Looking for TFVC repository at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-07T00:27:41.890Z - debug:  [12808] TFVC Creating Tfvc object with localPath='undefined'
+2022-03-07T00:27:41.891Z - debug:  [12808] Using TFS proxy: 
+2022-03-07T00:27:41.892Z - debug:  [12808] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2022-03-07T00:27:41.894Z - debug:  [12808] TFVC Repository created with repositoryRootFolder='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-07T00:27:41.904Z - debug:  [12808] TFVC Repository.CheckVersion
+2022-03-07T00:27:41.906Z - debug:  [12808] TFVC: tf add -noprompt -?
+2022-03-07T00:27:41.922Z - debug:  [12808] TFVC: spawned new process (duration: 12ms)
+2022-03-07T00:27:42.498Z - debug:  [12808] TFVC: add exit code: 0 (duration: 591ms)
+2022-03-07T00:27:42.500Z - debug:  [12808] TFVC Minimum required version: 14.102.0
+2022-03-07T00:27:42.500Z - debug:  [12808] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2022-03-07T00:27:42.500Z - debug:  [12808] TFVC Repository.FindWorkspace with localPath='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-07T00:27:42.500Z - debug:  [12808] TFVC: tf workfold -noprompt c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-07T00:27:42.507Z - debug:  [12808] TFVC: spawned new process (duration: 6ms)
+2022-03-07T00:27:43.661Z - debug:  [12808] TFVC: workfold exit code: 100 (duration: 1160ms)
+2022-03-07T00:27:43.663Z - debug:  [12808] TFVC errors (via stderr): There is no working folder mapping for c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather.
+
+2022-03-07T00:27:43.663Z - error:  [12808] Execution of the TFVC command line failed unexpectedly.
+2022-03-08T03:00:03.715Z - debug:  [12808] Reinitializing due to onDidChangeConfiguration
+2022-03-08T03:00:03.719Z - debug:  [12808] Polling interval value (minutes): 5
+2022-03-08T03:00:03.719Z - debug:  [12808] Polling interval must be greater than 10 minutes.
+2022-03-08T03:00:03.728Z - info:   [12808] *** FOLDER: c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather ***
+2022-03-08T03:00:03.728Z - info:   [12808] AzureReposVSCode/1.161.1 (VSCode 1.63.2; Windows_NT 10.0.19044; Node 14.16.0)
+2022-03-08T03:00:03.729Z - debug:  [12808] Looking for an External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-08T03:00:03.729Z - debug:  [12808] No External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-08T03:00:03.753Z - debug:  [12808] Looking for TFVC repository at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-08T03:00:03.753Z - debug:  [12808] TFVC Creating Tfvc object with localPath='undefined'
+2022-03-08T03:00:03.754Z - debug:  [12808] Using TFS proxy: 
+2022-03-08T03:00:03.755Z - debug:  [12808] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2022-03-08T03:00:03.756Z - debug:  [12808] TFVC Repository created with repositoryRootFolder='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-08T03:00:03.758Z - debug:  [12808] TFVC Repository.CheckVersion
+2022-03-08T03:00:03.759Z - debug:  [12808] TFVC: tf add -noprompt -?
+2022-03-08T03:00:03.770Z - debug:  [12808] TFVC: spawned new process (duration: 9ms)
+2022-03-08T22:51:14.868Z - info:   [12656] *** FOLDER: c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather ***
+2022-03-08T22:51:14.868Z - info:   [12656] AzureReposVSCode/1.161.1 (VSCode 1.63.2; Windows_NT 10.0.19044; Node 14.16.0)
+2022-03-08T22:51:14.868Z - debug:  [12656] Looking for an External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-08T22:51:14.868Z - debug:  [12656] No External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-08T22:51:14.869Z - debug:  [12656] Looking for TFVC repository at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-08T22:51:14.869Z - debug:  [12656] TFVC Creating Tfvc object with localPath='undefined'
+2022-03-08T22:51:14.870Z - debug:  [12656] Using TFS proxy: 
+2022-03-08T22:51:14.870Z - debug:  [12656] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2022-03-08T22:51:14.870Z - debug:  [12656] TFVC Repository created with repositoryRootFolder='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-08T22:51:14.871Z - debug:  [12656] TFVC Repository.CheckVersion
+2022-03-08T22:51:14.871Z - debug:  [12656] TFVC: tf add -noprompt -?
+2022-03-08T22:51:14.875Z - debug:  [12656] TFVC: spawned new process (duration: 4ms)
+2022-03-08T22:51:14.879Z - debug:  [12656] TFVC: spawned new process (duration: 3ms)
+2022-03-08T22:51:16.184Z - debug:  [12656] TFVC: add exit code: 0 (duration: 1313ms)
+2022-03-08T22:51:16.185Z - debug:  [12656] TFVC Minimum required version: 14.102.0
+2022-03-08T22:51:16.185Z - debug:  [12656] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2022-03-08T22:51:16.186Z - debug:  [12656] TFVC Repository.FindWorkspace with localPath='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-08T22:51:16.186Z - debug:  [12656] TFVC: tf workfold -noprompt c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-08T22:51:16.195Z - debug:  [12656] TFVC: spawned new process (duration: 8ms)
+2022-03-08T22:51:18.381Z - debug:  [12656] TFVC: workfold exit code: 100 (duration: 2195ms)
+2022-03-08T22:51:18.384Z - debug:  [12656] TFVC errors (via stderr): There is no working folder mapping for c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather.
+
+2022-03-08T22:51:18.385Z - error:  [12656] Execution of the TFVC command line failed unexpectedly.
+2022-03-09T16:18:27.940Z - info:   [02892] *** FOLDER: c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather ***
+2022-03-09T16:18:27.940Z - info:   [02892] AzureReposVSCode/1.161.1 (VSCode 1.63.2; Windows_NT 10.0.19044; Node 14.16.0)
+2022-03-09T16:18:27.940Z - debug:  [02892] Looking for an External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-09T16:18:27.940Z - debug:  [02892] No External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-09T16:18:27.941Z - debug:  [02892] Looking for TFVC repository at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-09T16:18:27.942Z - debug:  [02892] TFVC Creating Tfvc object with localPath='undefined'
+2022-03-09T16:18:27.942Z - debug:  [02892] Using TFS proxy: 
+2022-03-09T16:18:27.942Z - debug:  [02892] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2022-03-09T16:18:27.943Z - debug:  [02892] TFVC Repository created with repositoryRootFolder='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-09T16:18:27.944Z - debug:  [02892] TFVC Repository.CheckVersion
+2022-03-09T16:18:27.944Z - debug:  [02892] TFVC: tf add -noprompt -?
+2022-03-09T16:18:27.965Z - debug:  [02892] TFVC: spawned new process (duration: 20ms)
+2022-03-09T16:18:27.972Z - debug:  [02892] TFVC: spawned new process (duration: 6ms)
+2022-03-09T16:18:29.648Z - debug:  [02892] TFVC: add exit code: 0 (duration: 1704ms)
+2022-03-09T16:18:29.649Z - debug:  [02892] TFVC Minimum required version: 14.102.0
+2022-03-09T16:18:29.649Z - debug:  [02892] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2022-03-09T16:18:29.649Z - debug:  [02892] TFVC Repository.FindWorkspace with localPath='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-09T16:18:29.650Z - debug:  [02892] TFVC: tf workfold -noprompt c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-09T16:18:29.658Z - debug:  [02892] TFVC: spawned new process (duration: 7ms)
+2022-03-09T16:18:30.837Z - debug:  [02892] TFVC: workfold exit code: 100 (duration: 1187ms)
+2022-03-09T16:18:30.838Z - debug:  [02892] TFVC errors (via stderr): There is no working folder mapping for c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather.
+
+2022-03-09T16:18:30.839Z - error:  [02892] Execution of the TFVC command line failed unexpectedly.
+2022-03-11T00:09:13.596Z - info:   [19304] *** FOLDER: c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather ***
+2022-03-11T00:09:13.596Z - info:   [19304] AzureReposVSCode/1.161.1 (VSCode 1.63.2; Windows_NT 10.0.19044; Node 14.16.0)
+2022-03-11T00:09:13.597Z - debug:  [19304] Looking for an External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-11T00:09:13.597Z - debug:  [19304] No External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-11T00:09:13.599Z - debug:  [19304] Looking for TFVC repository at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-11T00:09:13.599Z - debug:  [19304] TFVC Creating Tfvc object with localPath='undefined'
+2022-03-11T00:09:13.600Z - debug:  [19304] Using TFS proxy: 
+2022-03-11T00:09:13.601Z - debug:  [19304] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2022-03-11T00:09:13.603Z - debug:  [19304] TFVC Repository created with repositoryRootFolder='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-11T00:09:13.605Z - debug:  [19304] TFVC Repository.CheckVersion
+2022-03-11T00:09:13.606Z - debug:  [19304] TFVC: tf add -noprompt -?
+2022-03-11T00:09:13.617Z - debug:  [19304] TFVC: spawned new process (duration: 9ms)
+2022-03-11T00:09:13.627Z - debug:  [19304] TFVC: spawned new process (duration: 9ms)
+2022-03-11T00:09:16.148Z - debug:  [19304] TFVC: add exit code: 0 (duration: 2541ms)
+2022-03-11T00:09:16.150Z - debug:  [19304] TFVC Minimum required version: 14.102.0
+2022-03-11T00:09:16.150Z - debug:  [19304] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2022-03-11T00:09:16.151Z - debug:  [19304] TFVC Repository.FindWorkspace with localPath='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-11T00:09:16.151Z - debug:  [19304] TFVC: tf workfold -noprompt c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-11T00:09:16.285Z - debug:  [19304] TFVC: spawned new process (duration: 124ms)
+2022-03-11T00:09:18.889Z - debug:  [19304] TFVC: workfold exit code: 100 (duration: 2737ms)
+2022-03-11T00:09:18.891Z - debug:  [19304] TFVC errors (via stderr): There is no working folder mapping for c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather.
+
+2022-03-11T00:09:18.891Z - error:  [19304] Execution of the TFVC command line failed unexpectedly.
+2022-03-11T00:10:45.104Z - info:   [0788] *** FOLDER: c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather ***
+2022-03-11T00:10:45.104Z - info:   [0788] AzureReposVSCode/1.161.1 (VSCode 1.63.2; Windows_NT 10.0.19044; Node 14.16.0)
+2022-03-11T00:10:45.104Z - debug:  [0788] Looking for an External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-11T00:10:45.105Z - debug:  [0788] No External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-11T00:10:45.106Z - debug:  [0788] Looking for TFVC repository at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-11T00:10:45.106Z - debug:  [0788] TFVC Creating Tfvc object with localPath='undefined'
+2022-03-11T00:10:45.107Z - debug:  [0788] Using TFS proxy: 
+2022-03-11T00:10:45.108Z - debug:  [0788] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2022-03-11T00:10:45.109Z - debug:  [0788] TFVC Repository created with repositoryRootFolder='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-11T00:10:45.111Z - debug:  [0788] TFVC Repository.CheckVersion
+2022-03-11T00:10:45.111Z - debug:  [0788] TFVC: tf add -noprompt -?
+2022-03-11T00:10:45.120Z - debug:  [0788] TFVC: spawned new process (duration: 8ms)
+2022-03-11T00:10:45.129Z - debug:  [0788] TFVC: spawned new process (duration: 8ms)
+2022-03-11T00:10:46.219Z - debug:  [0788] TFVC: add exit code: 0 (duration: 1108ms)
+2022-03-11T00:10:46.220Z - debug:  [0788] TFVC Minimum required version: 14.102.0
+2022-03-11T00:10:46.220Z - debug:  [0788] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2022-03-11T00:10:46.220Z - debug:  [0788] TFVC Repository.FindWorkspace with localPath='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-11T00:10:46.221Z - debug:  [0788] TFVC: tf workfold -noprompt c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-11T00:10:46.254Z - debug:  [0788] TFVC: spawned new process (duration: 32ms)
+2022-03-11T00:10:47.997Z - debug:  [0788] TFVC: workfold exit code: 100 (duration: 1775ms)
+2022-03-11T00:10:47.998Z - debug:  [0788] TFVC errors (via stderr): There is no working folder mapping for c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather.
+
+2022-03-11T00:10:47.998Z - error:  [0788] Execution of the TFVC command line failed unexpectedly.
+2022-03-11T00:13:14.084Z - info:   [02484] *** FOLDER: c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather ***
+2022-03-11T00:13:14.085Z - info:   [02484] AzureReposVSCode/1.161.1 (VSCode 1.63.2; Windows_NT 10.0.19044; Node 14.16.0)
+2022-03-11T00:13:14.085Z - debug:  [02484] Looking for an External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-11T00:13:14.085Z - debug:  [02484] No External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-11T00:13:14.088Z - debug:  [02484] Looking for TFVC repository at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-11T00:13:14.089Z - debug:  [02484] TFVC Creating Tfvc object with localPath='undefined'
+2022-03-11T00:13:14.091Z - debug:  [02484] Using TFS proxy: 
+2022-03-11T00:13:14.091Z - debug:  [02484] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2022-03-11T00:13:14.094Z - debug:  [02484] TFVC Repository created with repositoryRootFolder='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-11T00:13:14.097Z - debug:  [02484] TFVC Repository.CheckVersion
+2022-03-11T00:13:14.098Z - debug:  [02484] TFVC: tf add -noprompt -?
+2022-03-11T00:13:14.129Z - debug:  [02484] TFVC: spawned new process (duration: 30ms)
+2022-03-11T00:13:14.142Z - debug:  [02484] TFVC: spawned new process (duration: 12ms)
+2022-03-11T00:13:16.218Z - debug:  [02484] TFVC: add exit code: 0 (duration: 2120ms)
+2022-03-11T00:13:16.219Z - debug:  [02484] TFVC Minimum required version: 14.102.0
+2022-03-11T00:13:16.219Z - debug:  [02484] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2022-03-11T00:13:16.220Z - debug:  [02484] TFVC Repository.FindWorkspace with localPath='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-11T00:13:16.220Z - debug:  [02484] TFVC: tf workfold -noprompt c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-11T00:13:16.234Z - debug:  [02484] TFVC: spawned new process (duration: 13ms)
+2022-03-11T00:13:17.848Z - debug:  [02484] TFVC: workfold exit code: 100 (duration: 1628ms)
+2022-03-11T00:13:17.849Z - debug:  [02484] TFVC errors (via stderr): There is no working folder mapping for c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather.
+
+2022-03-11T00:13:17.850Z - error:  [02484] Execution of the TFVC command line failed unexpectedly.
+2022-03-11T17:12:01.252Z - info:   [21604] *** FOLDER: c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather ***
+2022-03-11T17:12:01.253Z - info:   [21604] AzureReposVSCode/1.161.1 (VSCode 1.63.2; Windows_NT 10.0.19044; Node 14.16.0)
+2022-03-11T17:12:01.253Z - debug:  [21604] Looking for an External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-11T17:12:01.254Z - debug:  [21604] No External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-11T17:12:01.255Z - debug:  [21604] Looking for TFVC repository at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-11T17:12:01.255Z - debug:  [21604] TFVC Creating Tfvc object with localPath='undefined'
+2022-03-11T17:12:01.261Z - debug:  [21604] Using TFS proxy: 
+2022-03-11T17:12:01.261Z - debug:  [21604] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2022-03-11T17:12:01.263Z - debug:  [21604] TFVC Repository created with repositoryRootFolder='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-11T17:12:01.265Z - debug:  [21604] TFVC Repository.CheckVersion
+2022-03-11T17:12:01.266Z - debug:  [21604] TFVC: tf add -noprompt -?
+2022-03-11T17:12:01.274Z - debug:  [21604] TFVC: spawned new process (duration: 7ms)
+2022-03-11T17:12:01.284Z - debug:  [21604] TFVC: spawned new process (duration: 9ms)
+2022-03-11T17:12:02.369Z - debug:  [21604] TFVC: add exit code: 0 (duration: 1103ms)
+2022-03-11T17:12:02.370Z - debug:  [21604] TFVC Minimum required version: 14.102.0
+2022-03-11T17:12:02.370Z - debug:  [21604] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2022-03-11T17:12:02.370Z - debug:  [21604] TFVC Repository.FindWorkspace with localPath='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-11T17:12:02.371Z - debug:  [21604] TFVC: tf workfold -noprompt c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-11T17:12:02.382Z - debug:  [21604] TFVC: spawned new process (duration: 10ms)
+2022-03-11T17:12:04.198Z - debug:  [21604] TFVC: workfold exit code: 100 (duration: 1827ms)
+2022-03-11T17:12:04.199Z - debug:  [21604] TFVC errors (via stderr): There is no working folder mapping for c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather.
+
+2022-03-11T17:12:04.200Z - error:  [21604] Execution of the TFVC command line failed unexpectedly.
+2022-03-15T02:34:48.696Z - info:   [32000] *** FOLDER: c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather ***
+2022-03-15T02:34:48.697Z - info:   [32000] AzureReposVSCode/1.161.1 (VSCode 1.63.2; Windows_NT 10.0.19044; Node 14.16.0)
+2022-03-15T02:34:48.697Z - debug:  [32000] Looking for an External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-15T02:34:48.697Z - debug:  [32000] No External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-15T02:34:48.698Z - debug:  [32000] Looking for TFVC repository at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-15T02:34:48.698Z - debug:  [32000] TFVC Creating Tfvc object with localPath='undefined'
+2022-03-15T02:34:48.699Z - debug:  [32000] Using TFS proxy: 
+2022-03-15T02:34:48.699Z - debug:  [32000] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2022-03-15T02:34:48.700Z - debug:  [32000] TFVC Repository created with repositoryRootFolder='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-15T02:34:48.701Z - debug:  [32000] TFVC Repository.CheckVersion
+2022-03-15T02:34:48.701Z - debug:  [32000] TFVC: tf add -noprompt -?
+2022-03-15T02:34:48.707Z - debug:  [32000] TFVC: spawned new process (duration: 5ms)
+2022-03-15T02:34:48.713Z - debug:  [32000] TFVC: spawned new process (duration: 6ms)
+2022-03-15T02:34:50.615Z - debug:  [32000] TFVC: add exit code: 0 (duration: 1914ms)
+2022-03-15T02:34:50.616Z - debug:  [32000] TFVC Minimum required version: 14.102.0
+2022-03-15T02:34:50.616Z - debug:  [32000] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2022-03-15T02:34:50.617Z - debug:  [32000] TFVC Repository.FindWorkspace with localPath='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-15T02:34:50.617Z - debug:  [32000] TFVC: tf workfold -noprompt c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-15T02:34:50.634Z - debug:  [32000] TFVC: spawned new process (duration: 16ms)
+2022-03-15T02:34:52.313Z - debug:  [32000] TFVC: workfold exit code: 100 (duration: 1696ms)
+2022-03-15T02:34:52.315Z - debug:  [32000] TFVC errors (via stderr): There is no working folder mapping for c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather.
+
+2022-03-15T02:34:52.315Z - error:  [32000] Execution of the TFVC command line failed unexpectedly.
+2022-03-15T14:33:39.454Z - info:   [14240] *** FOLDER: c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather ***
+2022-03-15T14:33:39.455Z - info:   [14240] AzureReposVSCode/1.161.1 (VSCode 1.63.2; Windows_NT 10.0.19044; Node 14.16.0)
+2022-03-15T14:33:39.455Z - debug:  [14240] Looking for an External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-15T14:33:39.456Z - debug:  [14240] No External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-15T14:33:39.458Z - debug:  [14240] Looking for TFVC repository at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-15T14:33:39.458Z - debug:  [14240] TFVC Creating Tfvc object with localPath='undefined'
+2022-03-15T14:33:39.459Z - debug:  [14240] Using TFS proxy: 
+2022-03-15T14:33:39.460Z - debug:  [14240] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2022-03-15T14:33:39.461Z - debug:  [14240] TFVC Repository created with repositoryRootFolder='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-15T14:33:39.461Z - debug:  [14240] TFVC Repository.CheckVersion
+2022-03-15T14:33:39.462Z - debug:  [14240] TFVC: tf add -noprompt -?
+2022-03-15T14:33:39.476Z - debug:  [14240] TFVC: spawned new process (duration: 14ms)
+2022-03-15T14:33:39.483Z - debug:  [14240] TFVC: spawned new process (duration: 6ms)
+2022-03-15T14:33:41.088Z - debug:  [14240] TFVC: add exit code: 0 (duration: 1626ms)
+2022-03-15T14:33:41.089Z - debug:  [14240] TFVC Minimum required version: 14.102.0
+2022-03-15T14:33:41.089Z - debug:  [14240] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2022-03-15T14:33:41.090Z - debug:  [14240] TFVC Repository.FindWorkspace with localPath='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-15T14:33:41.090Z - debug:  [14240] TFVC: tf workfold -noprompt c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-15T14:33:41.098Z - debug:  [14240] TFVC: spawned new process (duration: 7ms)
+2022-03-15T14:33:42.482Z - debug:  [14240] TFVC: workfold exit code: 100 (duration: 1392ms)
+2022-03-15T14:33:42.485Z - debug:  [14240] TFVC errors (via stderr): There is no working folder mapping for c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather.
+
+2022-03-15T14:33:42.487Z - error:  [14240] Execution of the TFVC command line failed unexpectedly.
+2022-03-15T15:52:23.032Z - info:   [26452] *** FOLDER: c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather ***
+2022-03-15T15:52:23.032Z - info:   [26452] AzureReposVSCode/1.161.1 (VSCode 1.63.2; Windows_NT 10.0.19044; Node 14.16.0)
+2022-03-15T15:52:23.033Z - debug:  [26452] Looking for an External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-15T15:52:23.033Z - debug:  [26452] No External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-15T15:52:23.034Z - debug:  [26452] Looking for TFVC repository at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-15T15:52:23.034Z - debug:  [26452] TFVC Creating Tfvc object with localPath='undefined'
+2022-03-15T15:52:23.035Z - debug:  [26452] Using TFS proxy: 
+2022-03-15T15:52:23.035Z - debug:  [26452] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2022-03-15T15:52:23.036Z - debug:  [26452] TFVC Repository created with repositoryRootFolder='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-15T15:52:23.037Z - debug:  [26452] TFVC Repository.CheckVersion
+2022-03-15T15:52:23.037Z - debug:  [26452] TFVC: tf add -noprompt -?
+2022-03-15T15:52:23.060Z - debug:  [26452] TFVC: spawned new process (duration: 22ms)
+2022-03-15T15:52:23.068Z - debug:  [26452] TFVC: spawned new process (duration: 6ms)
+2022-03-15T15:52:25.139Z - debug:  [26452] TFVC: add exit code: 0 (duration: 2102ms)
+2022-03-15T15:52:25.140Z - debug:  [26452] TFVC Minimum required version: 14.102.0
+2022-03-15T15:52:25.140Z - debug:  [26452] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2022-03-15T15:52:25.140Z - debug:  [26452] TFVC Repository.FindWorkspace with localPath='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-15T15:52:25.141Z - debug:  [26452] TFVC: tf workfold -noprompt c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-15T15:52:25.150Z - debug:  [26452] TFVC: spawned new process (duration: 8ms)
+2022-03-15T15:52:26.689Z - debug:  [26452] TFVC: workfold exit code: 100 (duration: 1548ms)
+2022-03-15T15:52:26.692Z - debug:  [26452] TFVC errors (via stderr): There is no working folder mapping for c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather.
+
+2022-03-15T15:52:26.693Z - error:  [26452] Execution of the TFVC command line failed unexpectedly.
+2022-03-18T22:18:08.530Z - debug:  [26452] Reinitializing due to onDidChangeConfiguration
+2022-03-18T22:18:08.539Z - debug:  [26452] Polling interval value (minutes): 5
+2022-03-18T22:18:08.541Z - debug:  [26452] Polling interval must be greater than 10 minutes.
+2022-03-18T22:18:08.577Z - info:   [26452] *** FOLDER: c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather ***
+2022-03-18T22:18:08.577Z - info:   [26452] AzureReposVSCode/1.161.1 (VSCode 1.63.2; Windows_NT 10.0.19044; Node 14.16.0)
+2022-03-18T22:18:08.578Z - debug:  [26452] Looking for an External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-18T22:18:08.578Z - debug:  [26452] No External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-18T22:18:08.642Z - debug:  [26452] Looking for TFVC repository at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-18T22:18:08.642Z - debug:  [26452] TFVC Creating Tfvc object with localPath='undefined'
+2022-03-18T22:18:08.643Z - debug:  [26452] Using TFS proxy: 
+2022-03-18T22:18:08.643Z - debug:  [26452] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2022-03-18T22:18:08.645Z - debug:  [26452] TFVC Repository created with repositoryRootFolder='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-18T22:18:08.646Z - debug:  [26452] TFVC Repository.CheckVersion
+2022-03-18T22:18:08.649Z - debug:  [26452] TFVC: tf add -noprompt -?
+2022-03-18T22:18:08.662Z - debug:  [26452] TFVC: spawned new process (duration: 12ms)
+2022-03-18T22:23:33.115Z - info:   [16992] *** FOLDER: c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather ***
+2022-03-18T22:23:33.115Z - info:   [16992] AzureReposVSCode/1.161.1 (VSCode 1.63.2; Windows_NT 10.0.19044; Node 14.16.0)
+2022-03-18T22:23:33.115Z - debug:  [16992] Looking for an External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-18T22:23:33.116Z - debug:  [16992] No External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-18T22:23:33.117Z - debug:  [16992] Looking for TFVC repository at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-18T22:23:33.117Z - debug:  [16992] TFVC Creating Tfvc object with localPath='undefined'
+2022-03-18T22:23:33.118Z - debug:  [16992] Using TFS proxy: 
+2022-03-18T22:23:33.118Z - debug:  [16992] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2022-03-18T22:23:33.119Z - debug:  [16992] TFVC Repository created with repositoryRootFolder='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-18T22:23:33.121Z - debug:  [16992] TFVC Repository.CheckVersion
+2022-03-18T22:23:33.121Z - debug:  [16992] TFVC: tf add -noprompt -?
+2022-03-18T22:23:33.265Z - debug:  [16992] TFVC: spawned new process (duration: 143ms)
+2022-03-18T22:23:33.274Z - debug:  [16992] TFVC: spawned new process (duration: 8ms)
+2022-03-18T22:23:35.315Z - debug:  [16992] TFVC: add exit code: 0 (duration: 2193ms)
+2022-03-18T22:23:35.316Z - debug:  [16992] TFVC Minimum required version: 14.102.0
+2022-03-18T22:23:35.322Z - debug:  [16992] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2022-03-18T22:23:35.324Z - debug:  [16992] TFVC Repository.FindWorkspace with localPath='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-18T22:23:35.325Z - debug:  [16992] TFVC: tf workfold -noprompt c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-18T22:23:35.411Z - debug:  [16992] TFVC: spawned new process (duration: 81ms)
+2022-03-18T22:23:38.896Z - debug:  [16992] TFVC: workfold exit code: 100 (duration: 3570ms)
+2022-03-18T22:23:38.897Z - debug:  [16992] TFVC errors (via stderr): There is no working folder mapping for c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather.
+
+2022-03-18T22:23:38.898Z - error:  [16992] Execution of the TFVC command line failed unexpectedly.
+2022-03-18T22:26:04.233Z - debug:  [16992] Reinitializing due to onDidChangeConfiguration
+2022-03-18T22:26:04.236Z - debug:  [16992] Polling interval value (minutes): 5
+2022-03-18T22:26:04.237Z - debug:  [16992] Polling interval must be greater than 10 minutes.
+2022-03-18T22:26:04.247Z - info:   [16992] *** FOLDER: c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather ***
+2022-03-18T22:26:04.248Z - info:   [16992] AzureReposVSCode/1.161.1 (VSCode 1.63.2; Windows_NT 10.0.19044; Node 14.16.0)
+2022-03-18T22:26:04.252Z - debug:  [16992] Looking for an External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-18T22:26:04.253Z - debug:  [16992] No External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-18T22:26:04.281Z - debug:  [16992] Looking for TFVC repository at c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-18T22:26:04.283Z - debug:  [16992] TFVC Creating Tfvc object with localPath='undefined'
+2022-03-18T22:26:04.287Z - debug:  [16992] Using TFS proxy: 
+2022-03-18T22:26:04.287Z - debug:  [16992] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2022-03-18T22:26:04.288Z - debug:  [16992] TFVC Repository created with repositoryRootFolder='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-18T22:26:04.289Z - debug:  [16992] TFVC Repository.CheckVersion
+2022-03-18T22:26:04.291Z - debug:  [16992] TFVC: tf add -noprompt -?
+2022-03-18T22:26:04.304Z - debug:  [16992] TFVC: spawned new process (duration: 12ms)
+2022-03-18T22:26:04.667Z - debug:  [16992] TFVC: add exit code: 0 (duration: 375ms)
+2022-03-18T22:26:04.668Z - debug:  [16992] TFVC Minimum required version: 14.102.0
+2022-03-18T22:26:04.668Z - debug:  [16992] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2022-03-18T22:26:04.668Z - debug:  [16992] TFVC Repository.FindWorkspace with localPath='c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather'
+2022-03-18T22:26:04.668Z - debug:  [16992] TFVC: tf workfold -noprompt c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather
+2022-03-18T22:26:04.673Z - debug:  [16992] TFVC: spawned new process (duration: 4ms)
+2022-03-18T22:26:05.462Z - debug:  [16992] TFVC: workfold exit code: 100 (duration: 793ms)
+2022-03-18T22:26:05.464Z - debug:  [16992] TFVC errors (via stderr): There is no working folder mapping for c:\Users\eng.ghadyalhamad\Desktop\Ebla\would-you-rather.
+
+2022-03-18T22:26:05.464Z - error:  [16992] Execution of the TFVC command line failed unexpectedly.
+2022-03-18T22:42:46.671Z - info:   [20584] *** FOLDER: c:\Users\eng.ghadyalhamad\Desktop\Ebla\wouldyourather ***
+2022-03-18T22:42:46.671Z - info:   [20584] AzureReposVSCode/1.161.1 (VSCode 1.63.2; Windows_NT 10.0.19044; Node 14.16.0)
+2022-03-18T22:42:46.672Z - debug:  [20584] Looking for an External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\wouldyourather
+2022-03-18T22:42:46.672Z - debug:  [20584] No External Context at c:\Users\eng.ghadyalhamad\Desktop\Ebla\wouldyourather
+2022-03-18T22:42:46.675Z - debug:  [20584] Looking for TFVC repository at c:\Users\eng.ghadyalhamad\Desktop\Ebla\wouldyourather
+2022-03-18T22:42:46.675Z - debug:  [20584] TFVC Creating Tfvc object with localPath='undefined'
+2022-03-18T22:42:46.676Z - debug:  [20584] Using TFS proxy: 
+2022-03-18T22:42:46.676Z - debug:  [20584] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2022-03-18T22:42:46.677Z - debug:  [20584] TFVC Repository created with repositoryRootFolder='c:\Users\eng.ghadyalhamad\Desktop\Ebla\wouldyourather'
+2022-03-18T22:42:46.678Z - debug:  [20584] TFVC Repository.CheckVersion
+2022-03-18T22:42:46.678Z - debug:  [20584] TFVC: tf add -noprompt -?
+2022-03-18T22:42:46.683Z - debug:  [20584] TFVC: spawned new process (duration: 4ms)
+2022-03-18T22:42:46.689Z - debug:  [20584] TFVC: spawned new process (duration: 5ms)
+2022-03-18T22:42:47.184Z - debug:  [20584] TFVC: add exit code: 0 (duration: 506ms)
+2022-03-18T22:42:47.185Z - debug:  [20584] TFVC Minimum required version: 14.102.0
+2022-03-18T22:42:47.185Z - debug:  [20584] TFVC (TF.exe, TF.cmd) version: 16.169.31206.5
+2022-03-18T22:42:47.185Z - debug:  [20584] TFVC Repository.FindWorkspace with localPath='c:\Users\eng.ghadyalhamad\Desktop\Ebla\wouldyourather'
+2022-03-18T22:42:47.185Z - debug:  [20584] TFVC: tf workfold -noprompt c:\Users\eng.ghadyalhamad\Desktop\Ebla\wouldyourather
+2022-03-18T22:42:47.193Z - debug:  [20584] TFVC: spawned new process (duration: 7ms)

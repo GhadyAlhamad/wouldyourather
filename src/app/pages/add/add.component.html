@@ -1,0 +1,42 @@
+<div class="add-panel">
+  <mat-card class="add-card">
+    <mat-card-title class="add-card-title">
+      Create New Question
+    </mat-card-title>
+    <mat-card-subtitle class="add-card-subtitle"
+      >Complete the Question</mat-card-subtitle
+    >
+    <form [formGroup]="addQuestionForm" (ngSubmit)="submit()" novalidate>
+      <div class="add-card-body">
+        <div class="add-question">Would You Rather...</div>
+        <mat-form-field class="add-form-field" appearance="outline">
+          <input
+            matInput
+            placeholder="Enter Option One Text here"
+            formControlName="optionOneText"
+            class="add-input"
+          />
+        </mat-form-field>
+        <div class="add-custom-separator">OR</div>
+        <mat-form-field class="add-form-field" appearance="outline">
+          <input
+            matInput
+            placeholder="Enter Option Two Text here"
+            class="add-input"
+            formControlName="optionTwoText"
+          />
+        </mat-form-field>
+        <!-- Submit -->
+        <div>
+          <button
+            mat-raised-button
+            [disabled]="isDisabled"
+            class="add-submit-button"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+    </form>
+  </mat-card>
+</div>

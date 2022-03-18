@@ -1,0 +1,32 @@
+<div class="login-container">
+  <mat-card class="login-card">
+    <div class="logo">
+      <img
+        src="./../../../assets/baseline_leaderboard_white_48dp.png"
+        height="100%"
+        width="100%"
+      />
+    </div>
+    <mat-card-title class="title"> Polling! </mat-card-title>
+    <mat-card-subtitle class="subtitle"
+      >Please Sign in to continue</mat-card-subtitle
+    >
+    <select class="select-button" [(ngModel)]="userKey" name="users">
+      <option
+        *ngFor="let key of objectKeys(users); let i = index"
+        [value]="key"
+      >
+        {{ readUsernameByKey(key) }}
+      </option>
+    </select>
+    <button
+      mat-raised-button
+      class="login-button"
+      [disabled]="!isLoaded"
+      (click)="login()"
+    >
+      Login
+    </button>
+  </mat-card>
+  <div class="footer">©copyright 2022 ghady alhamad</div>
+</div>

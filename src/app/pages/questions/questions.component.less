@@ -1,0 +1,156 @@
+.questions-panel {
+  width: 560px;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 2px;
+  min-height: 200px;
+}
+.card {
+  margin-bottom: 8px;
+  border: 1px solid rgb(228, 225, 225);
+  padding: 0px;
+}
+
+.card-title {
+  background-color: whitesmoke;
+  border: 1px solid rgb(228, 225, 225);
+  color: #000;
+  font-size: 18px;
+  padding: 15px;
+  text-align: left;
+}
+
+.card-body {
+  display: flex;
+  padding: 15px 25px;
+  padding-right: 15px;
+}
+
+.card-avatar {
+  flex: 1;
+  width: 120px;
+  height: 120px;
+}
+
+.card-data {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  margin-left: 30px;
+  text-align: left;
+}
+
+.question {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.option {
+  font-size: 15px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.view-poll-button:disabled {
+  background-color: rgb(104, 148, 230);
+  color: whitesmoke;
+}
+
+::ng-deep .mat-radio-button {
+  margin-bottom: 20px !important;
+}
+
+/*  shadow */
+::ng-deep .mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element {
+  background-color: #0066ff !important;
+}
+
+::ng-deep .mat-radio-button.mat-accent .mat-radio-inner-circle {
+  background-color: #fff !important;
+}
+
+::ng-deep.mat-radio-button.mat-accent.mat-radio-checked
+  .mat-radio-outer-circle {
+  border-width: 10px;
+  border-color: #0066ff !important;
+}
+
+.result-label {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.answered-option-container {
+  position: relative;
+  border: 2px solid rgb(240, 237, 237);
+  border-radius: 4px;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-shadow: 0 0 0 0 rgb(0 0 0 / 16%), 0 2px 0 0 rgb(0 0 0 / 12%);
+}
+
+.yourvoteIcon {
+  position: absolute;
+  top: -25px;
+  right: -22px;
+  width: 50px;
+}
+
+.answered-option-container.selected {
+  border: 3px solid rgb(34, 140, 211);
+}
+
+.answered-option {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.result-state {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+.mat-progress-bar {
+  height: 20px;
+}
+
+::ng-deep .mat-progress-bar-fill::after {
+  background-color: #0066ff !important;
+}
+
+::ng-deep .mat-progress-bar {
+  background-color: #0066ff !important;
+  border-radius: 5px;
+}
+
+.answered-progress-bar {
+  position: relative;
+  padding-top: 10px;
+}
+
+.rate {
+  position: absolute;
+  top: 9px;
+  left: 30%;
+  color: white;
+  z-index: 1;
+}
+
+.view-poll-button {
+  width: 100% !important;
+  min-width: unset !important;
+  font-size: 15px;
+  background-color: #0066ff;
+}

@@ -1,0 +1,45 @@
+<mat-card class="leaderboard-card">
+  <div class="cup"></div>
+  <img
+    src="../../../assets/cup-gold-removebg-preview.png"
+    *ngIf="rank == 1"
+    class="cup-icon"
+  />
+  <img
+    src="../../../assets/cup-silver-removebg-preview.png"
+    *ngIf="rank == 2"
+    class="cup-icon"
+  />
+  <img
+    src="../../../assets/cup-bronze-removebg-preview.png"
+    *ngIf="rank == 3"
+    class="cup-icon"
+  />
+  <img mat-card-avatar class="leaderboard-card-avatar" [src]="avatarURL" />
+  <div class="leaderboard-card-data">
+    <div>
+      <div class="leaderboard-user">
+        {{ user }}
+      </div>
+      <div>
+        <div class="leaderboard-data-state">
+          <div class="leaderboard-card-label">Answered Questions</div>
+          <div class="leaderboard-card-value">{{ answeredQuestion }}</div>
+        </div>
+        <hr />
+        <div class="leaderboard-data-state">
+          <div class="leaderboard-card-label">Created Questions</div>
+          <div class="leaderboard-card-value">{{ createdQuestion }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="leaderboard-card-score">
+    <mat-card class="score-card">
+      <mat-card-title class="score-card-title">Score </mat-card-title>
+      <div class="score-body">
+        <div class="score">{{ getScore() }}</div>
+      </div>
+    </mat-card>
+  </div>
+</mat-card>

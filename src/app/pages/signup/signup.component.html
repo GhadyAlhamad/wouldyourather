@@ -1,0 +1,44 @@
+<div class="signup-panel">
+  <mat-card class="signup-card">
+    <mat-card-title class="signup-card-title"> Create New User </mat-card-title>
+    <mat-card-subtitle class="signup-card-subtitle"
+      >Fill the User account</mat-card-subtitle
+    >
+    <form [formGroup]="signupForm" (ngSubmit)="submit()" novalidate>
+      <div class="signup-card-body">
+        <div class="signup-question">Fill user account info...</div>
+        <img [src]="avatar" class="user-avatar" />
+        <mat-form-field class="signup-form-field" appearance="outline">
+          <input
+            matInput
+            placeholder="Enter user name here"
+            formControlName="name"
+            class="signup-input"
+          />
+        </mat-form-field>
+        <div class="signup-custom-separator"></div>
+        <input
+          type="file"
+          #fileInput
+          id="uploadFile"
+          placeholder="Enter Option Two Text here"
+          (change)="uploadFileEvt($event)"
+          name="uploadFile"
+          formControlName="avatarURL"
+          accept="image/*"
+          class="signup-upload"
+        />
+        <!-- Submit -->
+        <div>
+          <button
+            mat-raised-button
+            [disabled]="isDisabled"
+            class="signup-submit-button"
+          >
+            Signup
+          </button>
+        </div>
+      </div>
+    </form>
+  </mat-card>
+</div>

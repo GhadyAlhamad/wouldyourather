@@ -1,0 +1,19 @@
+<mat-card class="card">
+  <mat-card-title class="card-title">{{ user }} Asks:</mat-card-title>
+  <div class="card-body">
+    <img mat-card-avatar class="card-avatar" [src]="avatarURL" />
+    <div class="card-data">
+      <div class="question">would you rather</div>
+      <div class="option">{{ optionOne }}</div>
+      <div class="option">{{ optionTwo }}</div>
+      <button
+        mat-raised-button
+        color="primary"
+        class="view-poll-button"
+        (click)="viewPoll()"
+      >
+        view poll
+      </button>
+    </div>
+  </div>
+</mat-card>

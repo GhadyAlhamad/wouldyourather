@@ -1,0 +1,99 @@
+<div class="questions-panel">
+  <mat-card class="card">
+    <mat-card-title class="card-title">
+      Asked by: {{ username }}
+    </mat-card-title>
+    <div class="card-body">
+      <img mat-card-avatar class="card-avatar" [src]="avatarURL" />
+      <div class="card-data">
+        <div *ngIf="!isAnswered" class="card-ask-question">
+          <div class="question">would you rather</div>
+          <mat-radio-group class="radio-group" [(ngModel)]="selected">
+            <mat-radio-button value="optionOne">
+              <div class="option">{{ optionOne }}</div></mat-radio-button
+            >
+            <mat-radio-button value="optionTwo"
+              ><div class="option">{{ optionTwo }}</div></mat-radio-button
+            >
+          </mat-radio-group>
+
+          <button
+            mat-raised-button
+            color="primary"
+            [disabled]="isDisabled"
+            class="view-poll-button"
+            (click)="viewPoll()"
+          >
+            view poll
+          </button>
+        </div>
+
+        <div *ngIf="isAnswered" class="card-show-answer-state">
+          <div class="result-label">Result:</div>
+          <div
+            [ngClass]="
+              selected == 'optionOne'
+                ? 'answered-option-container selected'
+                : 'answered-option-container'
+            "
+          >
+            <img
+              src="../../../assets/yourvote.png"
+              *ngIf="selected == 'optionOne'"
+              class="yourvoteIcon"
+            />
+            <div class="answered-option">would you rather {{ optionOne }}</div>
+            <div class="answered-progress-bar">
+              <mat-progress-bar
+                mode="determinate"
+                [value]="optionOneRate"
+                mode="determinate"
+              ></mat-progress-bar>
+              <div
+                class="rate"
+                *ngIf="optionOneRate > 0"
+                [ngStyle]="getStyles(optionOneRate)"
+              >
+                {{ optionOneRate }}%
+              </div>
+            </div>
+            <div class="result-state">
+              {{ optionOneCount }} out of {{ optionOneCount + optionTwoCount }}
+            </div>
+          </div>
+          <div
+            [ngClass]="
+              selected == 'optionTwo'
+                ? 'answered-option-container selected'
+                : 'answered-option-container'
+            "
+          >
+            <img
+              src="../../../assets/yourvote.png"
+              *ngIf="selected == 'optionTwo'"
+              class="yourvoteIcon"
+            />
+            <div class="answered-option">would you rather {{ optionTwo }}</div>
+            <div class="answered-progress-bar">
+              <mat-progress-bar
+                mode="determinate"
+                [value]="optionTwoRate"
+                mode="determinate"
+              ></mat-progress-bar>
+              <div
+                class="rate"
+                *ngIf="optionTwoRate > 0"
+                [ngStyle]="getStyles(optionTwoRate)"
+              >
+                {{ optionTwoRate }}%
+              </div>
+            </div>
+            <div class="result-state">
+              {{ optionTwoCount }} out of {{ optionOneCount + optionTwoCount }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </mat-card>
+</div>

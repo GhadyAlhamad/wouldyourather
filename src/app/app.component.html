@@ -1,0 +1,55 @@
+<mat-toolbar>
+  <button
+    mat-icon-button
+    *ngIf="screen_width < 600"
+    [matMenuTriggerFor]="menu"
+    aria-label="Example icon-button with a menu"
+  >
+    <mat-icon class="menu-icon" aria-hidden="false" aria-label="menu"
+      >menu</mat-icon
+    >
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item routerLink="home">home</button>
+    <button mat-menu-item routerLink="add">New Question</button>
+    <button mat-menu-item routerLink="leaderboard">leaderboard</button>
+  </mat-menu>
+
+  <mat-icon
+    class="poll-icon"
+    routerLink="home"
+    aria-hidden="false"
+    aria-label="Polling!"
+    >assessment</mat-icon
+  >
+  <span routerLink="home" class="poll-app">Polling!</span>
+  <nav class="navigation-bar" *ngIf="screen_width > 600">
+    <a routerLink="home" routerLinkActive="active">home</a>
+    <a routerLink="add" routerLinkActive="active">New Question</a>
+    <a routerLink="leaderboard" routerLinkActive="active">leaderboard</a>
+  </nav>
+  <div class="customseparator"></div>
+  <div class="user-info" *ngIf="screen_width > 600 && username">
+    Hello, {{ username }} &nbsp;
+    <span class="user_photo_block">
+      <img [src]="user_photo" alt="user photo0" class="user_photo" />
+    </span>
+    &nbsp; | &nbsp; <a class="logout" (click)="logout()">logout</a>
+  </div>
+  <div class="signup-info" *ngIf="!username">
+    <a class="signup" routerLink="signup">Signup</a>
+  </div>
+</mat-toolbar>
+<ngx-loading-bar
+  color="#cc0000"
+  [includeSpinner]="false"
+  [fixed]="false"
+  height="4px"
+></ngx-loading-bar>
+<div
+  [ngClass]="
+    screen_width > 600 ? 'main-container' : 'main-container no-padding'
+  "
+>
+  <router-outlet></router-outlet>
+</div>

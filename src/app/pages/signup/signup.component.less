@@ -1,0 +1,122 @@
+.signup-panel {
+  width: 570px;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 2px;
+  min-height: 200px;
+}
+
+.signup-card {
+  margin-bottom: 8px;
+  border: 1px solid rgb(228, 225, 225);
+  box-shadow: 0 15px 15px 0 rgb(0 0 0 / 16%), 0 2px 15px 0 rgb(0 0 0 / 12%);
+  padding: 0px;
+}
+
+.signup-card-title {
+  background-color: whitesmoke;
+  border: 1px solid rgb(228, 225, 225);
+  color: #000;
+  font-size: 22px;
+  padding: 15px;
+  text-align: center;
+}
+
+.signup-card-subtitle {
+  color: #000;
+  text-align: left;
+  padding: 20px 12px 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.signup-card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 12px 25px;
+  justify-items: center;
+  justify-content: center;
+}
+.user-avatar {
+  width: 140px;
+  height: 140px;
+  text-align: center;
+  margin: auto;
+}
+
+.signup-question {
+  font-size: 27px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.signup-custom-separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 6px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.signup-custom-separator::before,
+.signup-custom-separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid rgb(228, 225, 225);
+}
+
+.signup-upload {
+  width: 100%;
+  border: 1px solid rgb(228, 225, 225);
+  color: rgb(134, 133, 133);
+  font-size: 14px;
+  padding: 0.4em 0px 0.4em !important;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+}
+
+.signup-form-field {
+  margin-bottom: -10px !important;
+}
+
+::ng-deep .mat-form-field-flex > .mat-form-field-infix {
+  padding: 0.4em 0px 0.4em !important;
+  margin-bottom: 5px;
+}
+::ng-deep .mat-form-field-appearance-outline:hover .mat-form-field-outline {
+  color: #91bdff !important;
+}
+
+// mat-input error outline color
+::ng-deep
+  .mat-form-field-appearance-outline.mat-form-field-invalid.mat-form-field-invalid
+  .mat-form-field-outline-thick {
+  color: rgb(241, 237, 237) !important;
+}
+::ng-deep
+  .mat-form-field-appearance-outline.mat-focused
+  .mat-form-field-outline-thick {
+  color: #91bdff !important;
+  border: 1px solid #719ece !important;
+  border-radius: 8px !important;
+  box-shadow: 0 0 10px #91bdff !important;
+}
+
+.signup-submit-button {
+  width: 100% !important;
+  min-width: unset !important;
+  font-size: 16px;
+  background-color: #0066ff;
+  color: #fff;
+  margin-top: 8px;
+}
+
+.signup-submit-button:disabled {
+  background-color: rgb(104, 148, 230);
+  color: whitesmoke;
+}

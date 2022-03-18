@@ -1,0 +1,52 @@
+<div class="main-panel">
+  <mat-tab-group
+    animationDuration="0ms"
+    class="tabs"
+    [(selectedIndex)]="selectedInex"
+  >
+    <mat-tab
+      [label]="'Answered Questions - (' + answered + ')'"
+      class="mat-tab-label"
+    >
+      <div class="poll-cards" *ngIf="answered == 0">
+        <div class="no-questions">No Questions</div>
+      </div>
+
+      <div class="poll-cards" *ngIf="questions">
+        <div *ngFor="let key of objectKeys(questions); let i = index">
+          <app-pollcard
+            *ngIf="questions[key]['isAnswered']"
+            [user]="getUserName(questions[key]['author'])"
+            [avatarURL]="getUserAvatarURL(questions[key]['author'])"
+            [optionOne]="questions[key]['optionOne']['text']"
+            [optionTwo]="questions[key]['optionTwo']['text']"
+            [questionId]="questions[key]['id']"
+          >
+          </app-pollcard>
+        </div>
+      </div>
+    </mat-tab>
+    <mat-tab
+      [label]="'Unanswered Questions - (' + unAnswered + ')'"
+      class="mat-tab-label"
+    >
+      <div class="poll-cards" *ngIf="unAnswered == 0">
+        <div class="no-questions">No Questions</div>
+      </div>
+
+      <div class="poll-cards" *ngIf="questions">
+        <div *ngFor="let key of objectKeys(questions); let i = index">
+          <app-pollcard
+            *ngIf="!questions[key]['isAnswered']"
+            [user]="getUserName(questions[key]['author'])"
+            [avatarURL]="getUserAvatarURL(questions[key]['author'])"
+            [optionOne]="questions[key]['optionOne']['text']"
+            [optionTwo]="questions[key]['optionTwo']['text']"
+            [questionId]="questions[key]['id']"
+          >
+          </app-pollcard>
+        </div>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>
