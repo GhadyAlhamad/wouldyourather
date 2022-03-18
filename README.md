@@ -9,5 +9,6 @@ Implemented in 2022, March.
 | WARNING: be careful to baz the quux before initializing the retro encabulator! | 
 | --- |
 
-> **WARNING**: Be careful, or else!
-_**Warning:** Be very careful here._
+### Warning
+
+Be very careful here
