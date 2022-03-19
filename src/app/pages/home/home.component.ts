@@ -52,7 +52,8 @@ export class HomeComponent implements OnInit {
 
   getUserAvatarURL(userId: any): string {
     if (this.users[userId] != null && this.users[userId] != undefined) {
-      return this.users[userId].avatarURL.indexOf('data:image') != -1
+      return this.users[userId].avatarURL != undefined &&
+        this.users[userId].avatarURL.indexOf('data:image') != -1
         ? this.users[userId].avatarURL
         : `../../../assets/photos/${this.users[userId].avatarURL}`;
     } else return '';

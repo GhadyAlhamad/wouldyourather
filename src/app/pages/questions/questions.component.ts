@@ -123,6 +123,7 @@ export class QuestionsComponent implements OnInit {
           // set question data
           this.username = user.name;
           this.avatarURL =
+            user.avatarURL != undefined &&
             user.avatarURL.indexOf('data:image') != -1
               ? user.avatarURL
               : `../../../assets/photos/${user.avatarURL}`;

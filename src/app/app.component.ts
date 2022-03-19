@@ -27,7 +27,7 @@ export class AppComponent {
         // set user info
         this.username = name;
         this.user_photo =
-          avatarURL.indexOf('data:image') != -1
+          avatarURL != undefined && avatarURL.indexOf('data:image') != -1
             ? avatarURL
             : `../assets/photos/${avatarURL}`;
       } else {

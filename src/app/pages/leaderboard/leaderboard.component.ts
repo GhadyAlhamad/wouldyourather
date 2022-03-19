@@ -39,7 +39,7 @@ export class LeaderboardComponent implements OnInit {
 
   getUserAvatarURL(avatarURL: any): string {
     if (avatarURL != null && avatarURL != undefined) {
-      return avatarURL.indexOf('data:image') != -1
+      return avatarURL != undefined && avatarURL.indexOf('data:image') != -1
         ? avatarURL
         : `../../../assets/photos/${avatarURL}`;
     } else return '';

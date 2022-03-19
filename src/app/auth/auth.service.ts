@@ -26,7 +26,6 @@ export class AuthService {
       tap((val) => {
         // store auth in local storage
         storage.deleteItemByKey('auth');
-        storage.clearStorage();
       })
     );
   }
