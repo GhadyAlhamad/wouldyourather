@@ -171,7 +171,7 @@ export class AuthEffect {
           map((data: any) => {
             // dispatch save user success
             return new SaveUserSuccessAction({
-              authedUser: data.user,
+              authedUser: data.users[data.user.id],
               users: data.users,
             });
           })
@@ -184,13 +184,18 @@ export class AuthEffect {
   saveUserSuccessEffect = createEffect(() =>
     this.actions.pipe(
       ofType(SAVE_USER_SUCCESS),
-      mergeMap((action: SaveUserSuccessAction) => {
-        // complete loading bar
-        this.loadingBar.complete();
-        return [
-          new GetUsersSuccessAction(action.payload.users),
-          new AuthenticateUserAction(action.payload.authedUser.id),
-        ];
+      switchMap((action: SaveUserSuccessAction) => {
+        return from(
+          this.authService.login({ user: action.payload.authedUser }).pipe(
+            switchMap((data) => {
+              this.loadingBar.complete();
+              return [
+                new GetUsersSuccessAction(action.payload.users),
+                new AuthenticateSuccessAction(data),
+              ];
+            })
+          )
+        );
       })
     )
   );
