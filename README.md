@@ -5,5 +5,12 @@ Implemented in 2022, March.
 
 ![Wouldyourather](https://raw.githubusercontent.com/GhadyAlhamad/wouldyourather/main/src/assets/screenshots/1.PNG)
  
-<code>xx</code>
-<pre>xx</pre>
+## Setup 
+- Clone the project
+<pre>$ git clone https://github.com/GhadyAlhamad/wouldyourather.git</pre>
+
+- Install packages
+<pre>$ npm install</pre>
+ 
+- Start project
+<pre>$ ng serve</pre>
