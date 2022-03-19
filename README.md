@@ -28,7 +28,7 @@ In the "Would You Rather?" Project, you'll build a web app that lets a user play
 - Leaderboard for showing the best 3 users that have top score. 
 
 ## Development
-- You can download project overview from [a link](https://drive.google.com/file/d/1elNE4zNY2MES9dRzNdSe-X8XV8az2qZQ/view?usp=sharing) here or rubric from here.
+- You can download project overview from [here](https://drive.google.com/file/d/1elNE4zNY2MES9dRzNdSe-X8XV8az2qZQ/view?usp=sharing) or rubric from [here](https://drive.google.com/file/d/1DJcTqdPc2SLA17VYqgIlUPX40ajK7ST8/view?usp=sharing).
 
 ## Screen shots
 - Some screen shots to show project functions:
